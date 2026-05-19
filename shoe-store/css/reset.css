@@ -49,6 +49,14 @@
   overflow-wrap: break-word;
 }
 
+a{
+  text-decoration: none;
+}
+
+ul,ol{
+  list-style: none;
+}
+
 :where(a) {
   color: inherit;
   text-decoration: inherit;
