@@ -53,3 +53,14 @@
         background: url(../images/products/futurista.jpg) no-repeat center;
         background-size: cover;
     }
+
+   @media (max-width: 768px) {
+        .categories-section {
+           width: 100%;
+        }
+
+        .category-card {
+            width: 100%;
+           
+        }
+    }
