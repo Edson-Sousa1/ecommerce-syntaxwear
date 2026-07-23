@@ -50,9 +50,11 @@ shoe-store/
 
 ## Como visualizar o projeto
 
-1. Acesse a pasta `shoe-store`.
-2. Abra o arquivo `index.html` em um navegador.
-3. Se preferir, utilize uma extensão como Live Server no VS Code para visualizar a página com atualização automática.
+- Acesse o site diretamente aqui: [SyntaxWear](shoe-store/index.html)
+- Ou siga os passos abaixo:
+  1. Acesse a pasta `shoe-store`.
+  2. Abra o arquivo `index.html` em um navegador.
+  3. Se preferir, utilize uma extensão como Live Server no VS Code para visualizar a página com atualização automática.
 
 ## Como personalizar
 
