@@ -54,7 +54,7 @@
         background-size: cover;
     }
 
-   @media (max-width: 768px) {
+   @media (max-width: 500px) {
         .categories-section {
            width: 100%;
         }

@@ -11,7 +11,7 @@ main{
     margin: 0 auto;
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1366px){
     main{
         padding: 0.625rem;
     }
