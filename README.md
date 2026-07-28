@@ -1,75 +1,74 @@
 # SyntaxWear
 
-SyntaxWear é um projeto de landing page para um e-commerce de tênis e sneakers, com foco em estilo urbano, esportivo e contemporâneo. A interface foi criada para apresentar os principais modelos, categorias e chamar atenção para as ofertas e novidades.
+Landing page estática para um e-commerce de tênis e sneakers, com design inspirado em moda urbana e streetwear.
 
 ## Visão geral
 
-Este projeto possui uma estrutura simples e estática, desenvolvida com HTML e CSS, com uma experiência visual moderna e organizada. A página inicial reúne:
-
-- hero section com destaque para um modelo principal;
-- cards de categorias como Casual, Esporte, Moderno e Futurista;
-- grid de produtos em destaque;
-- área de newsletter e footer com navegação complementar.
-
-## Funcionalidades
-
-- Layout moderno e limpo para um e-commerce de moda urbana;
-- Seção inicial com mensagem forte e botões de ação;
-- Categorias visuais para facilitar a navegação;
-- Grade de produtos com destaque visual;
-- Rodapé com informações de contato, redes sociais e navegação secundária.
+Este projeto apresenta uma página única que reúne:
+- Header fixo com navegação principal e atalhos (lojas, sobre, conta, ajuda, carrinho).
+- Hero section com imagem de destaque, título principal e botões de ação.
+- Seção de categorias com cards visuais para os segmentos Casual, Esporte, Moderno e Futurista.
+- Grade de produtos em destaque com cards estilizados e foco no modelo "Krypton One".
+- Footer com inscrição de newsletter, links sociais e navegação secundária.
 
 ## Tecnologias utilizadas
 
 - HTML5
 - CSS3
-- Arquivos SVG e imagens para composição visual
+- Reset CSS personalizado
+- Google Font (`Ubuntu Mono`)
+- Imagens e ícones SVG
 
 ## Estrutura do projeto
 
 ```text
 README.md
-shoe-store/
-│
-├── index.html
-├── css/
-│   ├── base.css
-│   ├── footer.css
-│   ├── header.css
-│   ├── hero.css
-│   ├── product-category.css
-│   ├── product-grid.css
-│   ├── reset.css
-│   └── variables.css
-├── images/
-│   ├── banners/
-│   ├── icons/
-│   └── products/
-└── pages/
+index.html
+css/
+├── base.css
+├── footer.css
+├── header.css
+├── hero.css
+├── product-category.css
+├── product-grid.css
+├── reset.css
+└── variables.css
+images/
+├── banners/
+├── icons/
+└── products/
+pages/
 ```
 
-## Como visualizar o projeto
+## Arquivos principais
 
-- Acesse o site diretamente aqui: [SyntaxWear](shoe-store/index.html)
-- Ou siga os passos abaixo:
-  1. Acesse a pasta `shoe-store`.
-  2. Abra o arquivo `index.html` em um navegador.
-  3. Se preferir, utilize uma extensão como Live Server no VS Code para visualizar a página com atualização automática.
+- `index.html` — página principal.
+- `css/reset.css` — estilo base para normalização de elementos.
+- `css/variables.css` — variáveis CSS e import de fonte.
+- `css/base.css` — tipografia básica, layout e botões.
+- `css/header.css` — estilos do cabeçalho e menu responsivo.
+- `css/hero.css` — estilo do banner principal.
+- `css/product-category.css` — estilo dos cards de categoria.
+- `css/product-grid.css` — estilo do grid de produtos.
+- `css/footer.css` — estilo do rodapé.
 
-## Como personalizar
+## Como visualizar
 
-- Edite o conteúdo principal em `shoe-store/index.html`.
-- Ajuste os estilos em `shoe-store/css/`.
-- Troque imagens e ícones nas pastas `shoe-store/images/`.
+1. Abra `index.html` em um navegador.
+2. Ou use o Live Server no VS Code para desenvolvimento local.
+
+## Observações importantes
+
+- `index.html` referencia `css/layout.css` e `css/style.css`, mas esses arquivos não existem no projeto atual.
+- O diretório `pages/` está presente, mas está vazio.
+- Várias imagens usam nomes com extensão dupla como `.svg.svg` e `.jpg.jpg`; verifique se esses caminhos estão corretos.
+
+## Recomendações
+
+- Remova ou adicione `css/layout.css` e `css/style.css` conforme necessário.
+- Corrija os arquivos de imagem com extensão duplicada se houver links quebrados.
+- Atualize textos e imagens para refletir o branding final do site.
 
 ## Objetivo do projeto
 
-O projeto foi desenvolvido para demonstrar uma interface de e-commerce visualmente atractiva, com foco em experiência de usuário, identidade visual e estrutura de página comercial.
-
-## Status
-
-Em desenvolvimento como projeto de estudo/front-end.
-
-## Autor
-
-Projeto criado para o desafio de desenvolvimento front-end com foco em HTML e CSS.
+Apresentar uma landing page visualmente atraente para uma loja de sneakers, com foco em experiência de navegação e estilo moderno.
