@@ -54,8 +54,11 @@ pages/
 
 ## Como visualizar
 
-1. Abra `index.html` em um navegador.
-2. Ou use o Live Server no VS Code para desenvolvimento local.
+**[Acesse o SyntaxWear aqui](./index.html)** ➜ Clique para abrir a landing page.
+
+Alternativas:
+1. Abra `index.html` diretamente em um navegador.
+2. Use o Live Server no VS Code para desenvolvimento local com hot reload.
 
 ## Observações importantes
 

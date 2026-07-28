@@ -1,5 +1,5 @@
 .categories-section {
-   
+
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
@@ -10,7 +10,7 @@
 
 .category-card {
     position: relative;
-    width: 300px;
+    width: 317px;
     height: 500px;
     border-radius: 15px;
     overflow: hidden;
@@ -33,34 +33,28 @@
     text-align: center;
 }
 
+.casual {
+    background: url(../images/products/casual.jpg) no-repeat center;
+    background-size: cover;
+}
 
-    .casual {
-        background: url(../images/products/casual.jpg) no-repeat center;
-        background-size: cover;
-    }
+.esporte {
+    background: url(../images/products/exportivo.jpg) no-repeat center;
+    background-size: cover;
+}
 
-    .esporte {
-        background: url(../images/products/exportivo.jpg) no-repeat center;
-        background-size: cover;
-    }
+.moderno {
+    background: url(../images/products/moderno.jpg) no-repeat center;
+    background-size: cover;
+}
 
-    .moderno {
-        background: url(../images/products/moderno.jpg) no-repeat center;
-        background-size: cover;
-    }
+.futurista {
+    background: url(../images/products/futurista.jpg) no-repeat center;
+    background-size: cover;
+}
 
-    .futurista {
-        background: url(../images/products/futurista.jpg) no-repeat center;
-        background-size: cover;
-    }
-
-   @media (max-width: 500px) {
-        .categories-section {
-           width: 100%;
-        }
-
-        .category-card {
-            width: 100%;
-           
-        }
-    }
+@media (max-width: 500px) {
+    .category-card {
+        width: 100%;
+     }
+}

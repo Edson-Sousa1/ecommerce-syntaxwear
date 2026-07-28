@@ -1,82 +1,73 @@
+/* footer.css */
 .site-footer{
     background-color: #333333;
     color: #ffffff;
-    
 }
 
 .footer-content{
     max-width: 1360px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 2.5rem;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-right {
+.footer-right{
     display: flex;
     flex-direction: column;
     gap: 3.125rem;
 }
 
-.newsletter-form {
+.footer-nav ul{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-}
-
-.footer-nav  {
-    display: flex;
-   
     gap: 1.25rem;
 }
 
-.footer-column{
+.footer-nav ul ul{
     display: flex;
     flex-direction: column;
-   
-    gap: 1.1875rem;
-     
+    gap: 1rem;
 }
 
-
-.footer-nav strong {
-  color: #EDEDED;
-  font-size: 1.25rem;
-  margin-bottom: 10px;
-  display: block;
-  font-weight: 400;
-}
-
-.footer-column ul li a{
-   color: #ffffff;
-
-}
-
-.footer-nav li a:hover {
+.footer-nav strong{
     color: #EDEDED;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    display: block;
+    font-weight: 400;
+}
+
+.footer-nav li a{
+    color: #ffffff;
+}
+
+.footer-nav li a:hover{
     text-decoration: underline;
 }
 
-.newsletter-form input {
-    border-radius: 30px;
-    color: #AAAAAA;
-    padding: 12px 20px;
-    width: 344px;
-    background-color: white;
+.newsletter-form{
+    display: flex;
+    flex-direction: column;
 }
 
-.footer-social div{
-    display: flex;
-    gap: 20px;
+.newsletter-form input{
+    border-radius: 30px;
+    color: #AAAAAA;
+    padding: 0.75rem 1.25rem;
+    width: 21.5rem;
 }
 
 .footer-social span{
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     display: block;
 }
 
-.footer-social div a:hover img{
+.footer-social ul{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-social li a:hover img{
     opacity: 0.7;
 }
 
@@ -87,28 +78,23 @@
 }
 
 @media (max-width: 1000px) {
-    .footer-content{
-        flex-direction: column;
-        /* align-items: center;
-        text-align: center; */
-        gap: 2.5rem;
-    }
+	.footer-content{
+		flex-direction: column;
+		gap: 2rem;
+		padding: 2rem 1rem;
+	}
 
-    .footer-right {
-        flex-direction: column;
-    }
+	.footer-nav ul{
+		flex-direction: column;
+		gap: 2rem;
+	}
 
-    .footer-nav {
-        flex-direction: column;
-        gap: 2rem;
-    }
+	.footer-social ul{
+		gap: 1rem;
+	}
 
-    .footer-column {
-        flex-direction: column;
-    }
-
-    .footer-copy{
-        font-size: 1rem;
-        padding: 1.5rem 0 1.5rem;
-    }
+	.footer-copy{
+		font-size: 1rem;
+		padding: 1.5rem 0 1.5rem;
+	}
 }
